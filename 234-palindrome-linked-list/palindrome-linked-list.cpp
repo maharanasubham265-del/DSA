@@ -12,7 +12,8 @@ public:
        } 
        return pre;
     }
-    bool isPalindrome(ListNode* head) {
+    
+     bool isPalindrome(ListNode* head) {
         ListNode* slow = head;
         ListNode* fast = head;
         // reach the left middle element 
@@ -35,4 +36,6 @@ public:
         return true;
 
     }
+
+
 };
