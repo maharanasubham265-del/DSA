@@ -39,5 +39,6 @@ ListNode* reverse(ListNode* head) {
             if(t2 != NULL) t2 = t2->next;
 
         }
+        head = dummy->next;
     }
 };
